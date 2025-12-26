@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 0;
+
+    if (b != 0) {
+        printf("Result: %d\n", a / b);
+    } else {
+        printf("Error: Division by zero is not allowed.\n");
+    }
+
+    return 0;
+}

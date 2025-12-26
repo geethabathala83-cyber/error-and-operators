@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    unsigned int a = 5, b = 3; // binary: 5=0101, 3=0011
+
+    printf("a = %u, b = %u\n", a, b);
+
+    printf("a & b = %u\n", a & b);   // AND
+    printf("a | b = %u\n", a | b);   // OR
+    printf("a ^ b = %u\n", a ^ b);   // XOR
+    printf("~a = %u\n", ~a);         // NOT
+    printf("b << 1 = %u\n", b << 1); // Left shift
+    printf("b >> 1 = %u\n", b >> 1); // Right shift
+
+    return 0;
+}
+s
